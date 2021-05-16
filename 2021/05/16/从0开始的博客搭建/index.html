@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>从0开始的博客搭建 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="步骤 Node.js安装 cnpm安装 npm install cnpm -g  -g是global的意思 in China镜像域名npm install cnpm -g –registry&#x3D;https:&#x2F;&#x2F;registry.nlark.com或者npm install cnpm -g –registry&#x3D;http:&#x2F;&#x2F;registry.npm.taobao.org   用cnpm安装hexo c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从0开始的博客搭建">
+<meta property="og:url" content="http://example.com/2021/05/16/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="步骤 Node.js安装 cnpm安装 npm install cnpm -g  -g是global的意思 in China镜像域名npm install cnpm -g –registry&#x3D;https:&#x2F;&#x2F;registry.nlark.com或者npm install cnpm -g –registry&#x3D;http:&#x2F;&#x2F;registry.npm.taobao.org   用cnpm安装hexo c">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-05-16T13:16:57.000Z">
+<meta property="article:modified_time" content="2021-05-16T13:38:02.801Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-从0开始的博客搭建" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/05/16/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="article-date">
+  <time class="dt-published" datetime="2021-05-16T13:16:57.000Z" itemprop="datePublished">2021-05-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      从0开始的博客搭建
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ol>
+<li>Node.js安装</li>
+<li>cnpm安装<ul>
+<li>npm install cnpm -g  <code>-g</code>是global的意思</li>
+<li>in China镜像域名<br>npm install cnpm -g –registry=<a target="_blank" rel="noopener" href="https://registry.nlark.com/">https://registry.nlark.com</a><br>或者npm install cnpm -g –registry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></li>
+</ul>
+</li>
+<li>用cnpm安装hexo<br> <code>cnpm install -g hexo-cli</code></li>
+<li>转去想生成blog的目录, 生成blog文件夹, 进入blog文件夹 <figure class="highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd \ //返回根目录</span><br><span class="line">K:</span><br><span class="line">mkdir blog</span><br><span class="line">cd .\blog </span><br></pre></td></tr></table></figure></li>
+<li>运行hexo, 初始化initial<br> <code>hexo init</code><blockquote>
+<p>mac/linix 是<code>sudo hexo init</code><br><code>sudo</code>是获得管理员权限的命令</p>
+</blockquote>
+</li>
+<li>启动预览<br> <code>hexo s</code>启动预览指令<br> 页面地址<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></li>
+<li>创建新blog<br> <code>hexo n &quot;博客名字&quot;</code></li>
+<li>进入新建的blog界面编辑<br> <em>建议在文件夹使用git bash打开目录以获得linux指令(和mac相似指令)</em><ul>
+<li>以下是git bash指令<br><code>vim 博客名字.md</code></li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/05/16/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" data-id="ckor8e2yc00019ov739n1aite" data-title="从0开始的博客搭建" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2021/05/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/">May 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/05/16/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">从0开始的博客搭建</a>
+          </li>
+        
+          <li>
+            <a href="/2021/05/16/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
